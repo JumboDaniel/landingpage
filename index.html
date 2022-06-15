@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css"
     />
+    <link rel="stylesheet" href="/css/styles.css">
   </head>
   <body>
     <!-- Section 1 -->
@@ -500,7 +501,7 @@
                     placeholder="Password"
                   />
                 </div>
-                <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
+                <input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg, video/*"/>
                 <div class="relative">
                   <a
                     href="#_"
@@ -519,7 +520,7 @@
         </div>
       </div>
     </section>
-
+    <div id="display-image"></div>
     <!-- Section 5 -->
     <section class="bg-white">
       <div
@@ -658,5 +659,6 @@
 
     <!-- AlpineJS Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.0/alpine.js"></script>
+    <script src="/js/image.js"></script>
   </body>
 </html>
